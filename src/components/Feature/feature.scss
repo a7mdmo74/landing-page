@@ -1,0 +1,49 @@
+.feature {
+  text-align: center;
+  background-color: #f9fbfd;
+  &__content {
+    margin-bottom: 2rem;
+    p {
+      min-width: 0;
+      color: #56bbd0;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 2.5;
+    }
+    h2 {
+      font-size: 1.7rem;
+      letter-spacing: -0.5px;
+      font-weight: 700;
+      line-height: 2.5;
+      color: #0f2137;
+    }
+  }
+  &__grid {
+    transition: all 0.5s ease-in-out !important;
+    &:hover {
+      background-color: #fff;
+      transform: scale(1.1);
+    }
+  }
+  .grid__content {
+    margin: 2.5rem 0;
+    padding: 0 1.2rem;
+    h3 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.28;
+      color: #0f2137;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.88;
+      color: #0f2137;
+    }
+  }
+  .btn {
+    position: absolute;
+    text-transform: lowercase;
+    left: 1rem;
+  }
+}

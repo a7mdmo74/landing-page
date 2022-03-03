@@ -1,0 +1,73 @@
+.home {
+  background: url("../../images/home__bg.png") no-repeat center center;
+  min-height: 100vh;
+  position: relative;
+  &__content {
+    position: absolute;
+    width: 40%;
+    top: 20%;
+    h1 {
+      font-size: 55px;
+      font-weight: bold;
+      line-height: 1.2;
+      font-family: "Arvo", serif;
+      color: #02073e;
+    }
+    p {
+      margin: 25px 0 0;
+      font-size: 18px;
+      line-height: 2.33;
+      max-width: 470px;
+      text-align: left;
+    }
+  }
+  &__email {
+    margin: 1.2rem 0;
+  }
+  &__clients {
+    display: flex;
+    align-items: center;
+    p {
+      margin: 0;
+      padding-right: 1rem;
+    }
+  }
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      margin: 0 0.5rem;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .home {
+    &__content {
+      width: 70%;
+      p {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .home {
+    &__content {
+      width: 95%;
+      h1 {
+        font-size: 30px;
+      }
+    }
+    &__clients {
+      flex-direction: column;
+    }
+    .MuiFormControl-root {
+      width: 90% !important;
+      margin-bottom: 1rem;
+    }
+  }
+}

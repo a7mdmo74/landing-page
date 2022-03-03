@@ -1,0 +1,33 @@
+.company {
+  text-align: center;
+  h2 {
+    font-size: 28px;
+    line-height: 1.53;
+    letter-spacing: -1px;
+    color: #0f2137;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: "Arvo", serif;
+  }
+  p {
+    font-size: 15px;
+    line-height: 2;
+    max-width: 470px;
+    margin: 15px auto;
+    color: #02073e;
+  }
+  .btn {
+    text-transform: capitalize;
+    &__icon {
+      transition: all 0.5s ease-in-out;
+    }
+    &:hover .btn__icon {
+      transform: translateX(5px);
+    }
+  }
+  img {
+    max-width: 100%;
+  }
+}

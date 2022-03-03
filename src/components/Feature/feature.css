@@ -1,0 +1,61 @@
+.feature {
+  text-align: center;
+  background-color: #f9fbfd;
+}
+
+.feature__content {
+  margin-bottom: 2rem;
+}
+
+.feature__content p {
+  min-width: 0;
+  color: #56bbd0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.5;
+}
+
+.feature__content h2 {
+  font-size: 1.7rem;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  line-height: 2.5;
+  color: #0f2137;
+}
+
+.feature__grid {
+  -webkit-transition: all 0.5s ease-in-out !important;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.feature__grid:hover {
+  background-color: #fff;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.feature .grid__content {
+  margin: 2.5rem 0;
+  padding: 0 1.2rem;
+}
+
+.feature .grid__content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.28;
+  color: #0f2137;
+  margin-bottom: 10px;
+}
+
+.feature .grid__content p {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #0f2137;
+}
+
+.feature .btn {
+  position: absolute;
+  text-transform: lowercase;
+  left: 1rem;
+}
+/*# sourceMappingURL=feature.css.map */

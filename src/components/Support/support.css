@@ -1,0 +1,42 @@
+.support__left h2 {
+  font-size: 28px;
+  line-height: 1.53;
+  letter-spacing: -1px;
+  color: #0f2137;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+  line-height: 1.2;
+  font-family: "Arvo", serif;
+}
+
+.support__left p {
+  font-size: 15px;
+  line-height: 2;
+  margin: 15px 0 0;
+  max-width: 470px;
+  color: #02073e;
+}
+
+.support__left ul li img {
+  width: 50px;
+}
+
+.support__left .MuiListItemText-root {
+  margin-left: 1rem;
+}
+
+.support__left .MuiTypography-root {
+  margin: 0;
+}
+
+.support img {
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .support__left h2 {
+    font-size: 1.8rem;
+  }
+}
+/*# sourceMappingURL=support.css.map */

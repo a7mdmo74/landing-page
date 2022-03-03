@@ -1,0 +1,42 @@
+.company {
+  text-align: center;
+}
+
+.company h2 {
+  font-size: 28px;
+  line-height: 1.53;
+  letter-spacing: -1px;
+  color: #0f2137;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+  line-height: 1.2;
+  font-family: "Arvo", serif;
+}
+
+.company p {
+  font-size: 15px;
+  line-height: 2;
+  max-width: 470px;
+  margin: 15px auto;
+  color: #02073e;
+}
+
+.company .btn {
+  text-transform: capitalize;
+}
+
+.company .btn__icon {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.company .btn:hover .btn__icon {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.company img {
+  max-width: 100%;
+}
+/*# sourceMappingURL=company.css.map */

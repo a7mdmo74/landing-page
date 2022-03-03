@@ -1,0 +1,90 @@
+.footer {
+  padding-bottom: 2rem;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  margin: 1rem 0;
+  font-size: 14px;
+}
+
+.footer .MuiGrid-container {
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #000;
+}
+
+.footer__footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.footer__footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__footer div h3 {
+  margin-right: 1rem;
+  font-weight: 700;
+}
+
+.footer__footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.footer__footer ul li {
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .feature__content p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .feature .grid__content h3 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .feature .grid__content p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__grid {
+    text-align: center;
+  }
+  .footer__footer {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .footer__footer h3 {
+    font-size: 1.2rem;
+  }
+  .footer__footer span {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

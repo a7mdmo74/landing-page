@@ -1,0 +1,31 @@
+.blog__content {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.blog__content h2 {
+  color: #56bbd0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.5;
+}
+
+.blog__content h3 {
+  font-weight: 500;
+  line-height: 1.25;
+  color: #0f2137;
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.blog img {
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  .grid_02 {
+    margin-top: 0 !important;
+  }
+}
+/*# sourceMappingURL=blog.css.map */
