@@ -8,7 +8,7 @@ const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
   ...theme.typography.body2,
   padding: "4rem 2rem",
-  backgroundColor: "#f9fbfd",
+  background: "#f9fbfd",
   borderBottom: "1px solid #e9edf5",
   borderRight: "1px solid #e9edf5",
   textAlign: "center",
