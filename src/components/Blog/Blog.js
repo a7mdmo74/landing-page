@@ -26,12 +26,12 @@ const Blog = () => {
             Our recent blog post that updated
           </Typography>
         </div>
-        <Grid container>
+        <Grid container spacing={1}>
           <Grid item sm={12} md={6} lg={4}>
             <Card>
               <CardMedia
                 component="img"
-                height="360"
+                height="400"
                 image={card_01}
                 alt="card_01"
               />
@@ -75,22 +75,18 @@ const Blog = () => {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item md={12} lg={4}>
-            <Grid item md={12} lg={6}>
-              <Card>
+          <Grid item md={12} lg={4} sx={{ width: "100%" }}>
+            <Grid item md={12} lg={6} sx={{ minWidth: "100%" }}>
+              <Card sx={{ minWidth: "100%" }}>
                 <CardMedia
                   component="img"
-                  height="360"
+                  height="160"
                   image={card_03}
                   alt="card_03"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    Introducing our newest team with great experience
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    Brian Halligan knows that you need more than a great product
-                    to have a great brand.
+                    Develop you design experience with figma features.
                   </Typography>
                 </CardContent>
                 <CardActions>
@@ -98,21 +94,17 @@ const Blog = () => {
                 </CardActions>
               </Card>
             </Grid>
-            <Grid item md={12} lg={6}>
-              <Card>
+            <Grid item md={12} lg={6} sx={{ minWidth: "100%" }}>
+              <Card sx={{ minWidth: "100%" }}>
                 <CardMedia
                   component="img"
-                  height="360"
+                  height="160"
                   image={card_04}
                   alt="card_04"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    Introducing our newest team with great experience
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    Brian Halligan knows that you need more than a great product
-                    to have a great brand.
+                    Ui/UX industry are doing great job in previous year history
                   </Typography>
                 </CardContent>
                 <CardActions>
